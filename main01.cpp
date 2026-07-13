@@ -1,23 +1,23 @@
 #include <iostream>
-int main()
-{
-    int i{ 1 };
-    const int end{ 10 };
-    do 
-    {
-        std::cout << i << ' '; ++i;
-    } while(i <=  end);
-    std::cout << std::endl;
+// int main()
+// {
+//     int i{ 1 };
+//     const int end{ 10 };
+//     do 
+//     {
+//         std::cout << i << ' '; ++i;
+//     } while(i <=  end);
+//     std::cout << std::endl;
 
-    i = 1;
-    while ( i <= end ){
-        std::cout << i <<' '; ++i;
-    }
-    std::cout << std::endl;
+//     i = 1;
+//     while ( i <= end ){
+//         std::cout << i <<' '; ++i;
+//     }
+//     std::cout << std::endl;
 
-    for (i = 1; i<=end; ++i)
-        std::cout << i << ' ';
-    std::cout << std::endl;
+//     for (i = 1; i<=end; ++i)
+//         std::cout << i << ' ';
+//     std::cout << std::endl;
         
     // std::cout << "Enter 1, 2, or 3: ";
     // int x{};
@@ -53,5 +53,5 @@ int main()
     // std::cout << typeid(static_cast<double>(numOfStudents)).name() << std::endl;
 
     
-    return 0;
-}
+//     return 0;
+// }
